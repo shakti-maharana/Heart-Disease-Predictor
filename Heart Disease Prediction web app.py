@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # load the saved model
-loaded_data = pickle.load(open("C:/Users/mahar/OneDrive/Desktop/Heart Disease Prediction Web App/trained_model (3).sav",'rb'))
+loaded_data = pickle.load(open("trained_model (3).sav",'rb'))
 # Extract the model and the scaler
 loaded_model = loaded_data['model']
 loaded_scaler = loaded_data['scaler']
